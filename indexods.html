@@ -1,31 +1,231 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODS</title>
-    <link rel="stylesheet" href="css/index.css">
+
+    <title>ODS - Sustentabilidade</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Conteúdo */
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        main h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        /* Cards das ODS */
+
+        .ods-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .ods-card {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+            transition: 0.3s;
+        }
+
+        .ods-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .ods-card img {
+            width: 100%;
+            max-width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .ods-card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .ods-card p {
+            min-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        /* Botão */
+
+        .ods-card a {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+
+            text-decoration: none;
+
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .ods-card a:hover {
+            background-color: #555;
+        }
+
+        /* Rodapé */
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+    </style>
+
 </head>
-<body>
-    <header>
-        <div class="header-content"> 
-            <div class="header-text">
-                <h1> Sites de ODS</h1>
-            </div>
-        </div>
-    </header>
-    <section>
-        <img src="imagens/ODS12.png" alt="Imagem da ODS 12">
-        <img src="imagens/ods13.webp" alt="Imagem da ODS 13">
-        <img src="imagens/ods14.webp" alt="Imagem da ODS 14">
-    </section>
-    <footer>
-        <p>
-            <strong>
-                Desenvolvido por: Mayara Caetano
-            </strong>
-        </p>
-     </footer>
 
 <body>
-<html>
+
+    <header>
+
+        <h1>Objetivos de Desenvolvimento Sustentável</h1>
+
+        <p>
+            Conheça um pouco mais sobre as ODS 12, 13 e 14
+        </p>
+
+    </header>
+
+
+    <main>
+
+        <h2>Escolha uma ODS</h2>
+
+
+        <section class="ods-container">
+
+
+            <!-- ODS 12 -->
+
+            <article class="ods-card">
+
+                <img src="imagens/ODS12.png" alt="ODS 12">
+
+                <h3>ODS 12</h3>
+
+                <p>
+                    Consumo e Produção Responsáveis
+                </p>
+
+                <a href="ODS12.html">
+                    Acessar ODS 12
+                </a>
+
+            </article>
+
+
+            <!-- ODS 13 -->
+
+            <article class="ods-card">
+
+                <img src="imagens/ODS13.png" alt="ODS 13">
+
+                <h3>ODS 13</h3>
+
+                <p>
+                    Ação Contra a Mudança Global do Clima
+                </p>
+
+                <a href="ODS13.html">
+                    Acessar ODS 13
+                </a>
+
+            </article>
+
+
+            <!-- ODS 14 -->
+
+            <article class="ods-card">
+
+                <img src="imagens/ODS14.png" alt="ODS 14">
+
+                <h3>ODS 14</h3>
+
+                <p>
+                    Vida na Água
+                </p>
+
+                <a href="ODS14.html">
+                    Acessar ODS 14
+                </a>
+
+            </article>
+
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Projeto desenvolvido por estudante
+        </p>
+
+        <p>
+            ODS 12 • ODS 13 • ODS 14
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
