@@ -13,10 +13,10 @@ header {
 
 .header-content {
   display: flex;
-  align-items: center;/* alinha na vertical*/
-  justify-content: center; /*alinha na horizontal*/ 
-  gap: 20px; /*espaçamento interno*/
-  flex-wrap: wrap; /*quebra a linha e ajusta*/
+  align-items: center;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
 
 }
 
